@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.btn button {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 20px;
+    color: azure;
+    border: brown;
+    cursor: pointer;
+}
+
+.btn button:hover {
+background: brown;
+color: rgb(0, 0, 0);
+}
